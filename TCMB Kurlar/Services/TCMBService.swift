@@ -31,7 +31,7 @@ class TCMBService: NSObject, XMLParserDelegate {
                 return
             }
 
-            // XML verisini olduğu gibi yazdır
+            // XML verisini olduğu gibi yazdır (kontrol amaçlı)
             if let xmlString = String(data: data, encoding: .utf8) {
                 print("XML Response: \(xmlString)")
             }
